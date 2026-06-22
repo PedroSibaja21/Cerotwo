@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nuestros Servicios</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #7B1FA2, #9C27B0, #CE93D8);
+    color:white;
+}
+
+/* Encabezado */
+header{
+    text-align:center;
+    padding:50px;
+    background:rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size:55px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:20px;
+}
+
+/* Contenedor */
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+/* Introducción */
+.intro{
+    background:rgba(255,255,255,0.15);
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+.intro p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Servicios */
+.servicios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:35px;
+}
+
+.tarjeta{
+    background:rgba(255,255,255,0.2);
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    transition:0.4s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+}
+
+.tarjeta h3{
+    color:#C8E6C9;
+    margin-bottom:15px;
+}
+
+.tarjeta p{
+    line-height:1.6;
+}
+
+/* Imagen */
+.imagen{
+    text-align:center;
+    margin-top:40px;
+}
+
+.imagen img{
+    width:600px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+    transition:0.4s;
+}
+
+.imagen img:hover{
+    transform:scale(1.03);
+}
+
+/* Frase */
+.frase{
+    text-align:center;
+    margin-top:35px;
+    font-size:26px;
+    color:#E8F5E9;
+    font-style:italic;
+}
+
+/* Footer */
+footer{
+    margin-top:50px;
+    background:#4A148C;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>🌿 NUESTROS SERVICIOS 🌍</h1>
+    <p>Trabajamos para informar, formar y actuar frente al cambio climático.</p>
+</header>
+
+<div class="contenedor">
+
+    <div class="intro">
+        <p>
+            Nuestro objetivo es generar cambios reales y sostenibles mediante
+            la educación ambiental, la participación ciudadana y el desarrollo
+            de proyectos que ayuden a combatir los efectos del cambio climático.
+        </p>
+    </div>
+
+    <div class="servicios">
+
+        <div class="tarjeta">
+            <h3>📚 Difusión y Educación Ambiental</h3>
+            <p>
+                Charlas, talleres y pláticas sobre las causas, consecuencias y
+                soluciones del cambio climático para escuelas, comunidades y empresas.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>💡 Asesoría Práctica</h3>
+            <p>
+                Recomendaciones para reducir la huella de carbono, ahorrar agua,
+                energía y gestionar correctamente los residuos.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🌳 Organización de Actividades</h3>
+            <p>
+                Jornadas de reforestación, limpieza de espacios públicos y campañas
+                de concientización ambiental.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🤝 Acompañamiento a Iniciativas</h3>
+            <p>
+                Apoyo a grupos y proyectos locales enfocados en la protección
+                ambiental y el desarrollo sostenible.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="imagen">
+        <img src="imagen/charla.jpg" alt="Charla ambiental">
+    </div>
+
+    <div class="frase">
+        ♻️ "Pequeñas acciones de muchas personas pueden cambiar el mundo." ♻️
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Asociación para el Cuidado Ambiental | Servicios para un futuro sostenible 🌱
+</footer>
+
+</body>
+</html>
